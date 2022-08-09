@@ -72,7 +72,7 @@ const Footer = () => {
                         Top Brand Mobiles
                     </NavLink><br />
                 </div>
-                 <div>
+                <div>
                     <h3>UseFul Links</h3>
                     <NavLink className="NavLink" to="/">
                         Clothes
@@ -90,11 +90,11 @@ const Footer = () => {
 
 
             </div>
-            <hr/>
+            <hr />
             <div className='copyright text-center'>
-            Copyright © 2022 Material UI SAS
+                Copyright © 2022 Material UI SAS
             </div>
-            <hr/>
+            <hr />
 
 
 

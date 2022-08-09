@@ -23,7 +23,7 @@ const Order = () => {
 
   const compare = () => {
     let comparedata = getdata.filter((e) => {
-      return e.id == id
+      return e.id === id
     });
     setData(comparedata);
   }

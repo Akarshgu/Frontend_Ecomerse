@@ -8,16 +8,16 @@ const TopFashion = () => {
   return (
     <div>
 
-      <h1 className='lap'>TopBrands/Fashion</h1>
+      <h1 className='lap'>Fashion</h1>
       <div className='accsbox homebrands'>
-        {product.filter((value) => value.price >= 600).map((items) => {
+        {product.filter((value) => value.price >= 600).map((elements) => {
           return (
             <div className='homebrand d-flex'>
               <div className='accscard' onClick={() => store(`/Fashion`)}>
-                <img className='accsimage' src={items.imageurl} alt=""  style={{width:"200px" , textAlign:"center"} }/>
-                <h5 className="card-title">{items.name}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{items.category}</h6>
-                <p>Rs.{items.price}</p>
+                <img className='accsimage' src={elements.imageurl} alt=""  style={{width:"200px" , textAlign:"center"} }/>
+                <h5 className="card-title">{elements.name}</h5>
+                <h6 className="card-subtitle mb-2 text-muted">{elements.category}</h6>
+                <p>Rs.{elements.price}</p>
 
               </div>
             </div>

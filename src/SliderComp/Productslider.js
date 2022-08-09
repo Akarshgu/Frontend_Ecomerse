@@ -11,18 +11,16 @@ const Productslider = (slides) => {
         dispatch(ADD(e))
     }
     const [first, setFirst] = useState(0);
-    // const length = slides.length;
+
     const nextSlide = () => {
-        setFirst(first === slides - 3 ? 0 : first + 1)
+        setFirst(first === slides - 1 ? 0 : first + 1)
     }
     const prevSlide = () => {
-        setFirst(first === 0 ? slides - 3 : first - 1)
+        setFirst(first === 0 ? slides - 1 : first - 1)
     }
     console.log(first);
 
-    // if( !Array.isArray(slides) || slides.length <=0){
-    //     return null;
-    // }
+  
     return (
         <section className='slider featurslider'>
             <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />

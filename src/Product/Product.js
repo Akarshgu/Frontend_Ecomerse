@@ -4,7 +4,7 @@ import CardsData from '../Navbar/CardsData';
 import { useDispatch } from 'react-redux'
 import { ADD } from '../Redux/actions/action';
 const Product = () => {
-  const [data, setData] = useState(CardsData)
+  const [data] = useState(CardsData)
   const dispatch = useDispatch();
   const send = (e) => {
     console.log(e);

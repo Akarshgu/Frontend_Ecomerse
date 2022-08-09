@@ -13,9 +13,7 @@ const ImageSlider = (slides) => {
     }
     console.log(first);
 
-    // if( !Array.isArray(slides) || slides.length <=0){
-    //     return null;
-    // }
+  
     return (
         <section className='slider'>
             <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide}/>

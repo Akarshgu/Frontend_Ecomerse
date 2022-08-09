@@ -43,7 +43,7 @@ const Nav = () => {
 
     const total = () => {
         let price = 0;
-        getdata.map((ele, k) => {
+        getdata.map((ele) => {
             price = ele.price * ele.qnty + price
         });
         setPrice(price);
@@ -60,10 +60,6 @@ const Nav = () => {
             <nav className=" navbar navbar-expand-lg bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">All In One Store</a>
-
-
-
-
                     <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
