@@ -1,10 +1,10 @@
 import React from 'react'
-import Routing_part from './Navbar/Routing_part'
+import Routingpart from './Navbar/Routingpart'
 const App = () => {
   return (
-    <div>
-      <Routing_part/>
-       </div>
+    <>
+      <Routingpart/>
+       </>
   )
 }
 

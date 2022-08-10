@@ -13,7 +13,7 @@ import Fashion from '../Topproducts/Navgating/Fashion';
 import Accesories from '../Topproducts/Navgating/Accesories';
 
 
-const Routing_part = () => {
+const Routingpart = () => {
     return (
         <div>
             < BrowserRouter>
@@ -36,4 +36,4 @@ const Routing_part = () => {
         </div>
     )
 }
-export default Routing_part
+export default Routingpart
